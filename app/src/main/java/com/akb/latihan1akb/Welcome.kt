@@ -17,3 +17,6 @@ class Welcome : AppCompatActivity() {
         }
     }
 }
+
+/*
+* Dibuat oleh : Muhammad Farhaan 10117145*/
