@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_biodata.*
 
 class Biodata : AppCompatActivity() {
@@ -21,6 +22,12 @@ class Biodata : AppCompatActivity() {
 
         Btn.setOnClickListener {
             var name = Nama.text.toString()
+
+            if (name.isEmpty())
+            {
+                Toast.makeText(this, "Nama Tidak Boleh Dikosongkan", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
 
             val intent = Intent(this, Sayhai::class.java)
             intent.putExtra("Nama", name)
