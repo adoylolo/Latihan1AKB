@@ -19,4 +19,13 @@ class Welcome : AppCompatActivity() {
 }
 
 /*
-* Dibuat oleh : Muhammad Farhaan 10117145*/
+* Tanggal Pengerjaan  : 03-April-2020 ~ 07-April-2020
+* Deskripsi Pekerjaan : Membuat kelas Welcome (Main Activity), LoginCode, Biodaa, Sayhai dan layout activity_main,
+*                       activity_login_code, activity_biodata, activity_sayhai.
+*                       membuat fungsi untuk pindah dari activity ke activity lain.
+*                       Membuat validasi untuk Kode Keluarga agar tidak kosong dan harus 6 digit.
+*                       Membuat validasi untuk nama dan umur agar tidak kosong.
+* NIM                 : 10117145
+* Nama                : Muhammad Farhaan
+* Kelas               : IF-4
+* */
